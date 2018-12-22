@@ -2,11 +2,28 @@
 	email = mleyb@users.noreply.github.com
 [core]
 	editor = code --wait
-	autocrlf = false
+	autocrlf = true
 [diff]
     tool = default-difftool
 [difftool "default-difftool"]
     cmd = code --wait --diff $LOCAL $REMOTE
 [alias]
-	s = status
+	a = add
+	b = branch
+	c = checkout
+	cp = cherry-pick	
+	f = fetch
+	l = log
+	last = log -1 HEAD
+	m = merge
 	p = pull
+	pr = pull --rebase
+	put = push --tags
+	r = rebase
+	rom = rebase origin/master
+	rv = revert
+	s = status
+[fetch]
+	prune = true
+[pull]
+	rebase = true
