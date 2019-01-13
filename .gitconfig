@@ -1,5 +1,6 @@
 [user]
 	email = mleyb@users.noreply.github.com
+	name = Mark Leybourne
 [core]
 	editor = code --wait
 	autocrlf = true
