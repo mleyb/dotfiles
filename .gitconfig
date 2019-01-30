@@ -5,9 +5,13 @@
 	editor = code --wait
 	autocrlf = true
 [diff]
-    tool = default-difftool
-[difftool "default-difftool"]
+    tool = vscode
+[difftool "vscode"]
     cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode
+[mergetool]
+    cmd = code --wait $MERGED
 [alias]
 	a = add
 	b = branch
