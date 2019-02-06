@@ -1,3 +1,4 @@
+alias g="git"
 alias gs="git status"
 alias gd="git add ."
 alias gp="git push -u origin master"
