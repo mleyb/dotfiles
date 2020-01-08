@@ -1,3 +1,8 @@
+alias cd..="cd .."
+alias ..="cd .."
+
+alias df="df -Tha --total"
+
 alias g="git"
 alias gs="git status"
 alias gd="git add ."
